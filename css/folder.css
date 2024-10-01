@@ -1,0 +1,55 @@
+.folder{
+	position: relative;
+	font-size: 21px;
+	height: 450px;
+	width: 500px;
+	float: left;
+}
+
+.foldercenter{
+	margin: 0 150px;
+}
+
+@media screen and (max-width: 1300px) {
+	.foldercenter{
+	margin: 0 100px;
+	}
+	
+}
+
+
+@media screen and (max-width: 1195px) {
+	.folder{
+	position: relative;
+	font-size: 21px;
+	height: 430px;
+	width: 450px;
+	float: left;
+	}
+
+	.foldercenter{
+		margin: 0 50px;
+	}
+}
+
+
+@media screen and (max-width: 1070px) {
+
+	.folder{
+	height: 400px;
+	width: 400px;
+	float: left;
+	}
+
+	
+	.foldercenter{
+		margin: 0 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.foldercenter{
+		margin: 0 70px;
+	}
+}

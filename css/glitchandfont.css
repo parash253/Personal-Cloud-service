@@ -1,0 +1,115 @@
+@font-face
+{
+	font-family: 'Samarkan';
+	src:url(SamarkanNormal-Gg5D.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face
+{
+	font-family: 'Samarkan';
+	src:url(SamarkanOblique-BXew.ttf);
+	font-style: normal;
+	font-weight: 200;
+}
+.fonts
+{
+	font-family: 'Samarkan';
+	font-weight: 200;
+	color: #FFB266
+}
+.fonting
+{
+	font-family: 'Samarkan';
+	font-weight: 200;
+	color: #331900
+}
+.font
+{
+	color: #331900;
+}
+
+.font1
+{
+	color: #994C00;
+
+}
+.font2
+{
+	color: #FFB266;
+}
+/*GlitchPart Animation Code Begins*/
+.glitchpart{
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	right: 0px
+	width: 100%;
+	height: 100%;
+	animation: 2s glitch ;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+	overflow: hidden;
+	z-index: 1;
+}
+@media screen and (min-width: 500px) {
+	.glitch1
+	{
+		width: 100%;
+		height: 100%;
+		border-bottom: 5px groove #FF0000;
+		border-top: 5px groove #FF0000;
+	}
+	.glitchpart
+	{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 600px) {
+
+	.glitch1
+	{
+		width: 100%;
+		height: 700px;
+		border-bottom: 5px groove #FF0000;
+		border-top: 5px groove #FF0000;
+	}
+	.glitchpart
+	{
+		width: 100%;
+		height: 700px;
+	}
+}
+@keyframes glitch{
+	0%{
+		
+		width: 100%;
+		height: 100%;
+	}
+	10%,20%,30%,40%,50%{
+		
+		width: 100%;
+		height: 1%;
+		top: 50%;
+		left: 0%;
+	}
+	80%,85%,90%,95%,97%{
+		
+			
+		height: 0.1%;
+		top: 50%;
+		width: 30%;
+		left: 30%;		
+	}
+	100%{
+		
+		height: 5%;
+		left: 45%;		
+		top: 50%;
+		width: 0%;
+	}
+}
+
+
